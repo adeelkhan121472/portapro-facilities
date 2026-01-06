@@ -58,7 +58,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       {/* Hero Section */}
-      <section className="gradient-mesh relative overflow-hidden min-h-screen flex items-center">
+      <section className="gradient-mesh relative overflow-hidden min-h-screen flex items-center pt-24">
         <div className="absolute top-0 left-0 w-96 h-96 bg-secondary/20 rounded-full filter blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-light/20 rounded-full filter blur-3xl translate-x-1/2 translate-y-1/2"></div>
         

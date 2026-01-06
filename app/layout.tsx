@@ -100,7 +100,7 @@ export default function RootLayout({
           </div>
         </nav>
         
-        <main className="pt-20">
+        <main>
           {children}
         </main>
         

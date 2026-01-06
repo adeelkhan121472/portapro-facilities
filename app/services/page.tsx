@@ -136,7 +136,7 @@ export default function ServicesPage() {
       />
 
       {/* Hero Section */}
-      <section className="gradient-mesh relative overflow-hidden py-32">
+      <section className="gradient-mesh relative overflow-hidden py-32 pt-40">
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-5xl mx-auto text-center">
             <div className="inline-block mb-6">
