@@ -1,0 +1,10 @@
+# Robots.txt for PortaPro Facilities
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://portaprofacilities.site/sitemap.xml
+
+# Crawl-delay (optional, use if needed)
+# Crawl-delay: 10
