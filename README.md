@@ -131,11 +131,54 @@ Update phone number and email in:
 
 ## Deployment
 
-### Vercel (Recommended)
+### Deploy to Vercel (Recommended)
 
-1. Push code to GitHub
-2. Import project in Vercel
-3. Deploy with default settings
+This site is configured for deployment on Vercel with custom domain `portaprofacilities.site`.
+
+#### Step-by-Step Deployment:
+
+1. **Push to GitHub** (Already done ✅)
+   ```bash
+   git push origin main
+   ```
+
+2. **Deploy to Vercel**
+   - Visit [vercel.com](https://vercel.com)
+   - Click "Add New Project"
+   - Import from GitHub: `adeelkhan121472/portapro-facilities`
+   - Framework Preset: Next.js (auto-detected)
+   - Click "Deploy"
+
+3. **Add Custom Domain**
+   - Go to Project Settings → Domains
+   - Add domain: `portaprofacilities.site`
+   - Add domain: `www.portaprofacilities.site`
+   - Follow DNS configuration instructions
+
+4. **DNS Configuration**
+   Add these records to your domain registrar:
+
+   **For apex domain (portaprofacilities.site):**
+   - Type: `A`
+   - Name: `@`
+   - Value: `76.76.21.21`
+
+   **For www subdomain:**
+   - Type: `CNAME`
+   - Name: `www`
+   - Value: `cname.vercel-dns.com`
+
+5. **SSL Certificate**
+   - Vercel automatically provisions SSL certificates
+   - Your site will be available at `https://portaprofacilities.site`
+
+#### Build Configuration (Already Configured ✅)
+
+The `vercel.json` file includes:
+- Security headers
+- Cache control for static assets
+- Optimized image caching
+- Sitemap and robots.txt headers
 
 ### Other Platforms
 
