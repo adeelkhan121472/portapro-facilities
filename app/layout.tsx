@@ -162,6 +162,7 @@ export default function RootLayout({
               <div className="flex space-x-6 mt-4 md:mt-0">
                 <a href="#" className="text-gray-400 hover:text-secondary transition text-sm">Privacy</a>
                 <a href="#" className="text-gray-400 hover:text-secondary transition text-sm">Terms</a>
+                <a href="/sitemap-page" className="text-gray-400 hover:text-secondary transition text-sm">Sitemap</a>
               </div>
             </div>
           </div>
